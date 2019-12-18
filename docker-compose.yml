@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  local-mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
+    network_mode: bridge
